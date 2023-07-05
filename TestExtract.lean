@@ -6,3 +6,5 @@ theorem th2 (a b c : Nat): a + c + b = c + b + a := by
   rw [Nat.add_assoc]
   rw [Nat.add_comm a b]
   rw [← Nat.add_assoc]
+
+theorem th3 : True := by trivial
